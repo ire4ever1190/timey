@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "packages": {
+    "libdump": {
+      "version": "0.6.1",
+      "vcsRevision": "dcaaafec01d201c27325ef8309344b5e6cf9e34c",
+      "url": "https://github.com/ire4ever1190/libdump",
+      "downloadMethod": "git",
+      "dependencies": [
+        "nim"
+      ],
+      "checksums": {
+        "sha1": "c676a17c6d17399f24a0d10a81bbef1891117ed3"
+      }
+    },
+    "casserole": {
+      "version": "0.3.1",
+      "vcsRevision": "be04106b9bef136448852ae174f5e9820d6e5601",
+      "url": "https://github.com/ire4ever1190/casserole",
+      "downloadMethod": "git",
+      "dependencies": [
+        "nim",
+        "libdump"
+      ],
+      "checksums": {
+        "sha1": "5d458df93c28589744a89df3b9499c26f838ac43"
+      }
+    },
+    "nort": {
+      "version": "0.7.0",
+      "vcsRevision": "99071257ffe1ffd645e8c1aa914ac92c31c5acf7",
+      "url": "https://github.com/ire4ever1190/nort",
+      "downloadMethod": "git",
+      "dependencies": [
+        "nim",
+        "casserole"
+      ],
+      "checksums": {
+        "sha1": "79599e844f81a0d22db246590184b5bed3fe848e"
+      }
+    },
+    "taskman": {
+      "version": "0.7.0",
+      "vcsRevision": "40921b596d3a145deef29ec510f77f855c0e0411",
+      "url": "https://github.com/ire4ever1190/taskman",
+      "downloadMethod": "git",
+      "dependencies": [
+        "nim",
+        "nort"
+      ],
+      "checksums": {
+        "sha1": "eb12144cd1f588b088efb73850cb83ad0fc62d6f"
+      }
+    }
+  },
+  "tasks": {}
+}
