@@ -11,4 +11,4 @@ bin           = @["timey"]
 # Dependencies
 
 requires "nim >= 2.2.12"
-requires "gh:ire4ever1190/taskman >= 0.7.0"
+requires "gh:ire4ever1190/taskman >= 0.7.1"

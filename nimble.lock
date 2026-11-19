@@ -40,8 +40,8 @@
       }
     },
     "taskman": {
-      "version": "0.7.0",
-      "vcsRevision": "40921b596d3a145deef29ec510f77f855c0e0411",
+      "version": "0.7.1",
+      "vcsRevision": "d3bdeade9905fac81e1dacc6e049a4c6287d9228",
       "url": "https://github.com/ire4ever1190/taskman",
       "downloadMethod": "git",
       "dependencies": [
@@ -49,7 +49,7 @@
         "nort"
       ],
       "checksums": {
-        "sha1": "eb12144cd1f588b088efb73850cb83ad0fc62d6f"
+        "sha1": "f5b12eca1fe886294657f188170f4f72d3987b28"
       }
     }
   },

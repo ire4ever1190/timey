@@ -29,7 +29,7 @@
         packages.default = pkgs.mkNimbleApp {
           src = ./.;
           # Update this hash after first run
-          nimbleHash = "";
+          nimbleHash = "sha256-8eV6nmvMkNoWQyhy9YO60Q72l/tEl/1bHZ5dS/hWsqc=";
         };
       }
     );
